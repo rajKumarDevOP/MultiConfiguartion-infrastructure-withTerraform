@@ -1,9 +1,9 @@
 locals {
   servers = {
     frontend = {
-      ami           = "ami-07b1e00e78f2c53f6"
+      ami           = "ami-01a00762f46d584a1"
       instance_type = "t3.medium"
-      root_volume   = 50
+      root_volume   = 15
     #   eip           = "eipalloc-..."
       name          = "Frontend-server"
     }
